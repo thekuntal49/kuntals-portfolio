@@ -1,0 +1,277 @@
+{
+  "sections": [
+    {
+      "id": "sec1",
+      "title": "About",
+      "url": "about",
+      "content": "A brief introduction about me.",
+      "description": "I'm a passionate full-stack developer with a love for problem-solving and scalable applications. I enjoy exploring new technologies and building impactful digital solutions.",
+      "priority": 1
+    },
+    {
+      "id": "sec2",
+      "title": "Experience",
+      "url": "experience",
+      "content": "My work experience and internships.",
+      "description": "I have gained hands-on experience in frontend and backend development through multiple internships, working with PHP, Node.js, Express.js, and modern web technologies.",
+      "priority": 2
+    },
+    {
+      "id": "sec3",
+      "title": "Education",
+      "url": "education",
+      "content": "My academic background.",
+      "description": "Currently pursuing a BTech in Computer Science and Engineering from West Bengal, where I have built a strong foundation in software development and system design.",
+      "priority": 3
+    },
+    {
+      "id": "sec4",
+      "title": "Skills",
+      "url": "skills",
+      "content": "My technical skills.",
+      "description": "Proficient in JavaScript, React, Node.js, Express.js, PHP, MySQL, MongoDB, Git, and more. I enjoy applying these skills in real-world projects.",
+      "priority": 4
+    },
+    {
+      "id": "sec5",
+      "title": "Projects",
+      "url": "projects",
+      "content": "Some of my key projects.",
+      "description": "I have developed web applications, chatbots, and social networking platforms using modern tech stacks. My projects showcase my ability to solve real-world problems.",
+      "priority": 5
+    },
+    {
+      "id": "sec6",
+      "title": "Contact",
+      "url": "contact",
+      "content": "How to reach me.",
+      "description": "Feel free to connect with me via LinkedIn, email, or WhatsApp for job opportunities, collaborations, or tech discussions.",
+      "priority": 6
+    }
+  ],
+  "faqsTitle": "Most HR Asked Questions",
+  "faqs": [
+    {
+      "question": "What technologies are you proficient in?",
+      "answer": "I am skilled in frontend and backend development using JavaScript, React, Node.js, Express.js, PHP, MySQL, and MongoDB."
+    },
+    {
+      "question": "What types of projects have you worked on?",
+      "answer": "I have built full-stack web applications, e-commerce platforms, chatbots, and social networking sites."
+    },
+    {
+      "question": "How can I contact you for job opportunities?",
+      "answer": "You can reach me via LinkedIn, email, or WhatsApp."
+    }
+  ],
+  "profiles": [
+    {
+      "id": "profile1",
+      "url": "https://github.com/thekuntal49",
+      "name": "GitHub"
+    },
+    {
+      "id": "profile2",
+      "url": "https://linkedin.com/in/thekuntal49",
+      "name": "LinkedIn"
+    },
+    {
+      "id": "profile3",
+      "url": "https://gitlab.com/thekuntal49",
+      "name": "GitLab"
+    },
+    {
+      "id": "profile4",
+      "url": "mailto:the.kuntal49@gmail.com",
+      "name": "Gmail"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill1",
+      "name": "HTML"
+    },
+    {
+      "id": "skill2",
+      "name": "CSS"
+    },
+    {
+      "id": "skill3",
+      "name": "Bootstrap"
+    },
+    {
+      "id": "skill4",
+      "name": "TailwindCSS"
+    },
+    {
+      "id": "skill5",
+      "name": "JavaScript"
+    },
+    {
+      "id": "skill6",
+      "name": "React"
+    },
+    {
+      "id": "skill7",
+      "name": "NodeJS"
+    },
+    {
+      "id": "skill8",
+      "name": "PHP"
+    },
+    {
+      "id": "skill9",
+      "name": "MongoDB"
+    },
+    {
+      "id": "skill10",
+      "name": "MySQL"
+    },
+    {
+      "id": "skill11",
+      "name": "C"
+    },
+    {
+      "id": "skill12",
+      "name": "Git"
+    },
+    {
+      "id": "skill13",
+      "name": "GitHub"
+    },
+    {
+      "id": "skill14",
+      "name": "GitLab"
+    },
+    {
+      "id": "skill15",
+      "name": "Docker"
+    },
+    {
+      "id": "skill16",
+      "name": "TypeScript"
+    },
+    {
+      "id": "skill17",
+      "name": "ExpressJS"
+    }
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "institution": "Swami Vivekananda University",
+      "code": "SVU",
+      "url": "https://www.swamivivekanandauniversity.ac.in/",
+      "area": "Computer Science and Engineering",
+      "studyType": "B.Tech",
+      "startDate": "08/2021 -",
+      "endDate": "08/2025",
+      "score": "CGPA: 8.00"
+    },
+    {
+      "id": "edu2",
+      "institution": "Nandanpur High School",
+      "code": "NHS",
+      "url": "https://nandanpurhs.in/index2.php",
+      "area": "Science",
+      "studyType": "12th Grade - WBCHSE",
+      "startDate": "2019 -",
+      "endDate": "2021",
+      "score": "Percentage: 74.6%"
+    },
+    {
+      "id": "edu3",
+      "institution": "Nandanpur High School",
+      "code": "NHS",
+      "url": "https://nandanpurhs.in/index2.php",
+      "area": "General",
+      "studyType": "10th Grade - WBBSE",
+      "startDate": "",
+      "endDate": "2019",
+      "score": "Percentage: 72.2%"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Salesqueen Software Solutions",
+      "code": "SQ",
+      "position": "Front-End Developer Intern",
+      "employment_type": "Internship",
+      "duration": "June 2024 - August 2024 • 3 months",
+      "location": "Chennai, Tamil Nadu, India • Remote",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript"
+      ]
+    },
+    {
+      "company": "Salesqueen Software Solutions",
+      "code": "SQ",
+      "position": "Backend Developer Intern",
+      "employment_type": "Internship",
+      "duration": "September 2024 - February 2025 • 6 months",
+      "location": "Chennai, Tamil Nadu, India • Remote",
+      "skills": [
+        "JavaScript",
+        "PHP",
+        "CodeIgniter",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "College Counsel",
+      "code": "CC",
+      "position": "Backend Developer Intern",
+      "employment_type": "Internship",
+      "duration": "November 2024 - January 2025 • 3 months",
+      "location": "Noida, Uttar Pradesh, India • Remote",
+      "skills": [
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "GitLab",
+        "Express.js"
+      ]
+    },
+    {
+      "company": "Oggangs",
+      "code": "OG",
+      "position": "Software Intern",
+      "employment_type": "Internship",
+      "duration": "January 2025 - Present",
+      "location": "Bangalore, Karnataka, India • Remote",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "GitHub",
+        "JavaScript",
+        "Docker"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project1",
+      "title": "Social Clubs",
+      "code": "SC",
+      "url":"https://socialclubs.fun/",
+      "duration": "Aug 2024 - Oct 2024",
+      "description": "A Social Media Platform",
+      "skills": [
+        "NodeJS",
+        "React",
+        "ExpressJS",
+        "MongoDB",
+        "GitHub",
+        "JavaScript",
+        "TailwindCSS"
+      ]
+    }
+  ],
+  "settings": {
+    "show_faqs_after": 2
+  }
+}

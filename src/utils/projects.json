@@ -1,0 +1,21 @@
+[
+  {
+    "id":"1",
+    "title" : "Social Clubs",
+    "image" : "../assets/Project_1.png",
+    "description" : "A Social Media Platform"
+  },
+
+  {
+    "id":"2",
+    "title" : "Social Clubs",
+    "image" : "../assets/Project_1.png",
+    "description" : "A Social Media Platform"
+  },
+  {
+    "id":"3",
+    "title" : "Social Clubs",
+    "image" : "../assets/Project_1.png",
+    "description" : "A Social Media Platform"
+  }
+]

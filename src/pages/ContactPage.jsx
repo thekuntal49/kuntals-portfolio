@@ -69,7 +69,7 @@ export const ContactPage = () => {
     <section className="p-5 md:p-10 text-center">
       <div className="grid md:grid-cols-2 gap-8">
         {/* Contact Information */}
-        <div className="p-6 rounded-lg transition-all duration-200">
+        <div className=" rounded-lg transition-all duration-200">
           <h3 className="text-xl font-semibold text-white mb-4">
             Contact Info
           </h3>

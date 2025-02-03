@@ -7,7 +7,7 @@ export const Footer = () => {
   // const currentTime = `${currentHours}:${currentMinutes < 10 ? '0' : ''}${currentMinutes}`;
 
   return (
-    <footer className="bg-gray-800 text-white text-center py-4 mt-8">
+    <footer className="bg-gray-800 text-white text-center py-4 sm:mt-8">
       <p>&copy; {currentYear} Kuntal Kargupta. All rights reserved.</p>
       {/* <p>{currentTime}</p> */}
     </footer>

@@ -46,7 +46,7 @@ export const SearchBar = () => {
           theme="dark"
         >
           <a
-            href="/assets/Kuntal_Resume.pdf"
+            href="/assets/files/Kuntal_Resume.pdf"
             download="Kuntal's_Resume"
             className="flex items-center space-x-1 p-3 sm:p-4 xl:px-5 xl:py-4 rounded-full bg-zinc-700 hover:bg-zinc-600 transition-all"
           >

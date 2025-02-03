@@ -11,6 +11,7 @@ import { SkillsPage } from "./pages/SkillsPage";
 import { ContactPage } from "./pages/ContactPage";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
+import { IPLogger } from "./components/IPAddress";
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
       <Tabs />
       <ScrollToTop />
       <Toaster position="bottom-left" reverseOrder={false} />
+      <IPLogger />
       <Routes>
         <Route path="/" element={<AllPage />} />
         <Route path="/about" element={<AboutPage />} />

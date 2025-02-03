@@ -14,7 +14,7 @@ export const EducationPage = () => {
               {/* Institution Logo */}
               <a href={edu.url} target="_blank">
                 <img
-                  src={`/assets/institutionImages/${edu.code}.png`}
+                  src={`/assets/images/institutions/${edu.code}.png`}
                   alt={edu.institution}
                   className="w-24 h-24 object-contain rounded-md border border-gray-600"
                   onError={(e) => (e.target.style.display = "none")} // Hide broken images

@@ -2,66 +2,60 @@
   "sections": [
     {
       "id": "sec1",
-      "title": "About",
+      "title": "About Me",
       "url": "about",
-      "content": "A brief introduction about me.",
-      "description": "I'm a passionate full-stack developer with a love for problem-solving and scalable applications. I enjoy exploring new technologies and building impactful digital solutions.",
-      "priority": 1
+      "content": "Full Stack Developer from India",
+      "description": "Hi, I'm Kuntal, a problem-solving-oriented developer with over a year of hands-on experience in building scalable web applications and enjoy working on unique projects."
     },
     {
       "id": "sec2",
       "title": "Experience",
       "url": "experience",
-      "content": "My work experience and internships.",
-      "description": "I have gained hands-on experience in frontend and backend development through multiple internships, working with PHP, Node.js, Express.js, and modern web technologies.",
-      "priority": 2
+      "content": "My professional journey so far.",
+      "description": "I have completed internships in web development, gaining experience in backend technologies. These opportunities have helped me enhance my skills in JavaScript, PHP, Node.js, and database management."
     },
     {
       "id": "sec3",
       "title": "Education",
       "url": "education",
       "content": "My academic background.",
-      "description": "Currently pursuing a BTech in Computer Science and Engineering from West Bengal, where I have built a strong foundation in software development and system design.",
-      "priority": 3
+      "description": "I am currently pursuing a BTech in Computer Science and Engineering from West Bengal. Through my coursework and practical experience, I have built a strong foundation in software development, system design, and problem-solving."
     },
     {
       "id": "sec4",
       "title": "Skills",
       "url": "skills",
-      "content": "My technical skills.",
-      "description": "Proficient in JavaScript, React, Node.js, Express.js, PHP, MySQL, MongoDB, Git, and more. I enjoy applying these skills in real-world projects.",
-      "priority": 4
+      "content": "Technical expertise.",
+      "description": "I am proficient in JavaScript, React, Node.js, Express.js, PHP, MySQL, MongoDB, Git, and more. I enjoy applying these technologies to develop efficient and scalable web applications."
     },
     {
       "id": "sec5",
       "title": "Projects",
       "url": "projects",
-      "content": "Some of my key projects.",
-      "description": "I have developed web applications, chatbots, and social networking platforms using modern tech stacks. My projects showcase my ability to solve real-world problems.",
-      "priority": 5
+      "content": "Showcasing my work.",
+      "description": "I have developed various web applications, chatbots, and social networking platforms using modern tech stacks. My projects highlight my problem-solving abilities and my passion for building impactful software solutions."
     },
     {
       "id": "sec6",
       "title": "Contact",
       "url": "contact",
-      "content": "How to reach me.",
-      "description": "Feel free to connect with me via LinkedIn, email, or WhatsApp for job opportunities, collaborations, or tech discussions.",
-      "priority": 6
+      "content": "Get in touch.",
+      "description": "Feel free to connect with me via LinkedIn, email, or WhatsApp for job opportunities, collaborations, or technical discussions. I'm always open to new challenges and networking."
     }
   ],
-  "faqsTitle": "Most HR Asked Questions",
+  "faqsTitle": "HR Questions & Answers",
   "faqs": [
     {
-      "question": "What technologies are you proficient in?",
-      "answer": "I am skilled in frontend and backend development using JavaScript, React, Node.js, Express.js, PHP, MySQL, and MongoDB."
+      "question": "What technologies do you specialize in?",
+      "answer": "I have hands-on experience with JavaScript, React, Node.js, Express.js, PHP, MySQL, and MongoDB, focusing on building scalable and efficient applications."
     },
     {
-      "question": "What types of projects have you worked on?",
-      "answer": "I have built full-stack web applications, e-commerce platforms, chatbots, and social networking sites."
+      "question": "Can you tell us about your project experience?",
+      "answer": "Sure! I built Social Clubs, a MERN Stack based social media platform for posting, news updates, engagement, and real-time chat."
     },
     {
-      "question": "How can I contact you for job opportunities?",
-      "answer": "You can reach me via LinkedIn, email, or WhatsApp."
+      "question": "How can we get in touch with you?",
+      "answer": "You can connect with me on LinkedIn, drop me an email, or message me on WhatsApp."
     }
   ],
   "profiles": [
@@ -84,6 +78,16 @@
       "id": "profile4",
       "url": "mailto:the.kuntal49@gmail.com",
       "name": "Gmail"
+    },
+    {
+      "id": "profile5",
+      "url": "https://wa.me/917047462797",
+      "name": "WhatsApp"
+    },
+    {
+      "id": "profile6",
+      "url": "https://www.instagram.com/the_kuntal49",
+      "name": "Instagram"
     }
   ],
   "skills": [
@@ -257,14 +261,28 @@
       "id": "project1",
       "title": "Social Clubs",
       "code": "SC",
-      "url":"https://socialclubs.fun/",
+      "url": "https://socialclubs.fun",
       "duration": "Aug 2024 - Oct 2024",
-      "description": "A Social Media Platform",
+      "description": "A platform for connecting people, sharing interests, and organizing events.",
       "skills": [
         "NodeJS",
         "React",
         "ExpressJS",
         "MongoDB",
+        "GitHub",
+        "JavaScript",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "id": "project2",
+      "title": "Kuntals-Portfolio",
+      "code": "KP",
+      "url": "https://kuntals-portfolio.vercel.app",
+      "duration": "Feb 2025 - Present",
+      "description": "A personal portfolio showcasing my skills, projects, and professional journey.",
+      "skills": [
+        "React",
         "GitHub",
         "JavaScript",
         "TailwindCSS"

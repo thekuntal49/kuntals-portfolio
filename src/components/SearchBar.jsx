@@ -1,6 +1,6 @@
 import React from "react";
 import { FaSun, FaFileAlt, FaMicrophone } from "react-icons/fa";
-import myPhoto from "/assets/Kuntal's_Photo.jpg";
+import myPhoto from "/assets/images/Kuntal's_Photo.jpg";
 import { RxCross2 } from "react-icons/rx";
 import { IoSearchOutline } from "react-icons/io5";
 import { TbSunHigh } from "react-icons/tb";
@@ -10,19 +10,6 @@ import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/scale.css";
 
 export const SearchBar = () => {
-  
-  const handleDownload = async () => {
-    const response = await fetch("/Kuntal_Resume.pdf");
-    const blob = await response.blob();
-    const url = window.URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "Kuntal_Resume.pdf";
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  };
-
   return (
     <div className="flex gap-5 flex-col-reverse sm:flex-row justify-between text-[#e8eaed] p-4 sm:p-10 mx-auto">
       {/* Left Side - Logo and Name */}
@@ -58,13 +45,14 @@ export const SearchBar = () => {
           delay={[100, 50]}
           theme="dark"
         >
-          <button
-            onClick={handleDownload}
+          <a
+            href="/assets/Kuntal_Resume.pdf"
+            download="Kuntal's_Resume"
             className="flex items-center space-x-1 p-3 sm:p-4 xl:px-5 xl:py-4 rounded-full bg-zinc-700 hover:bg-zinc-600 transition-all"
           >
             <FiDownload size={24} />
             <span className="hidden xl:inline font-semibold">Download CV</span>
-          </button>
+          </a>
         </Tippy>
 
         {/* Switch Mode Button */}

@@ -31,7 +31,7 @@ export const SkillsPage = () => {
             ${highlightedSkill === skill.name ? "ring-4 shadow ring-blue-500" : ""}`}
           >
             <img
-              src={`/assets/skillIcons/${skill.name}.svg`}
+              src={`/assets/svg/${skill.name}.svg`}
               width="120"
               alt={skill.name}
               className="mb-4"

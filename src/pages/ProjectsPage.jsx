@@ -16,7 +16,7 @@ export const ProjectsPage = () => {
             <div className="flex space-y-5 md:space-y-0 flex-col md:flex-row items-center space-x-4 md:items-start">
               <a href={project.url} target="_blank">
                 <img
-                  src={`/assets/projectsImages/${project.code}.png`}
+                  src={`/assets/images/projects/${project.code}.png`}
                   alt={project.title}
                   className="w-30 h-20 object-contain rounded-md"
                 />

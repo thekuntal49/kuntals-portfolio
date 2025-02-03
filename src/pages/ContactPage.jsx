@@ -10,8 +10,8 @@ export const ContactPage = () => {
     message: "",
   });
   const [uploading, setUploading] = useState(false);
-  // const backendUrl = "https://social-clubs-backend.onrender.com";
-  const backendUrl = "http://localhost:5000";
+  const backendUrl = "https://social-clubs-backend.onrender.com";
+  //const backendUrl = "http://localhost:5000";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -74,23 +74,25 @@ export const ContactPage = () => {
             Contact Info
           </h3>
           <div className="mt-4 grid grid-cols-2 gap-3">
-            {data.profiles.map((profile) => (
-              <a
-                key={profile.id}
-                href={profile.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-3 bg-gray-700 p-3 rounded-lg hover:bg-gray-600 duration-200"
-              >
-                <img
-                  src={`/assets/skillIcons/${profile.name}.svg`}
-                  width="32"
-                  alt={profile.name}
-                  className="text-2xl"
-                />
-                <span className="text-white">{profile.name}</span>
-              </a>
-            ))}
+            {data.profiles
+              .filter((p) => p.id != "profile1" && p.id != "profile3")
+              .map((profile) => (
+                <a
+                  key={profile.id}
+                  href={profile.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-3 bg-gray-700 p-3 rounded-lg hover:bg-gray-600 duration-200"
+                >
+                  <img
+                    src={`/assets/svg/${profile.name}.svg`}
+                    width="32"
+                    alt={profile.name}
+                    className="text-2xl"
+                  />
+                  <span className="text-white">{profile.name}</span>
+                </a>
+              ))}
           </div>
         </div>
 

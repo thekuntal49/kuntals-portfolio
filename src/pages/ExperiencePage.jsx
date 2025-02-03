@@ -16,7 +16,7 @@ export const ExperiencePage = () => {
             <div className="flex space-x-4 items-start">
               {/* Company Logo */}
               <img
-                src={`/assets/companyImages/${exp.code}.jpeg`}
+                src={`/assets/images/companies/${exp.code}.jpeg`}
                 alt={exp.company}
                 className="w-20 h-20 object-cover rounded-md"
               />

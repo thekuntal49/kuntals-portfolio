@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import myPhoto from "/assets/Kuntal's_Photo.jpg";
+import myPhoto from "/assets/images/Kuntal's_Photo.jpg";
 import { IoMdClose } from "react-icons/io";
 import data from "../utils/data.json";
 
@@ -7,7 +7,7 @@ export const KnowledgePanel = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="p-6 mt-4 shadow-xl md:border-l border-gray-700 text-white">
+    <div className="p-6 mt-4  md:border-l border-gray-700 text-white">
       {/* Fullscreen Image Modal */}
       {isOpen && (
         <div
@@ -96,7 +96,7 @@ export const KnowledgePanel = () => {
                 className="flex items-center space-x-3 bg-gray-700 p-3 rounded-lg hover:bg-gray-600 duration-200"
               >
                 <img
-                  src={`/assets/skillIcons/${profile.name}.svg`}
+                  src={`/assets/svg/${profile.name}.svg`}
                   width="32"
                   alt={profile.name}
                   className="text-2xl"

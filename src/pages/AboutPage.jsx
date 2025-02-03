@@ -9,27 +9,44 @@ import {
 
 export const AboutPage = () => {
   return (
-    <div className="bg-zinc-900 text-white min-h-screen">
-      <div className="container mx-auto px-4 py-12">
+    <div className="bg-gradient-to-b from-zinc-900 to-gray-800 text-white min-h-screen flex items-start">
+      <div className="container mx-auto px-6 py-12">
         {/* Header Section */}
         <header className="text-center">
-          <h1 className="text-4xl font-bold text-yellow-400">About Me</h1>
-          <p className="mt-2 text-xl text-gray-400">
-            I'm Kuntal Kargupta, a passionate Full Stack Developer from India 
+          <h1 className="text-5xl font-extrabold text-yellow-400 drop-shadow-lg">
+            About Me
+          </h1>
+          <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
+            Hi, I'm{" "}
+            <span className="text-yellow-400 font-semibold">
+              Kuntal Kargupta
+            </span>
+            , a passionate Full Stack Developer from India. As a Computer
+            Science & Engineering student, I specialize in both frontend and
+            backend technologies, solving real-world problems through web
+            development.
           </p>
         </header>
 
-        {/* Bio Section */}
-        <section className="mt-10 text-center">
-          <h2 className="text-3xl font-semibold">Who Am I?</h2>
-          <p className="mt-4 text-lg text-gray-300 max-w-3xl mx-auto">
-            I’m a Computer Science & Engineering student with a passion for web
-            development and building solutions that improve people's lives. I
-            specialize in both frontend and backend technologies, and I love
-            diving into new challenges. I’m constantly learning and excited to
-            grow in the field of software development.
-          </p>
-        </section>
+        <div className="text-center mt-10">
+          <h1 className="text-5xl font-extrabold text-yellow-400 drop-shadow-lg">
+            Top Skills
+          </h1>
+          <div className="mt-10 flex flex-wrap justify-center gap-6">
+            <div className="p-4 bg-gray-700 rounded-xl shadow-md flex items-center space-x-4 transform hover:scale-105 transition">
+              <FaReact className="text-blue-400 text-2xl animate-spin-slow" />
+              <span className="text-lg font-semibold">React.js</span>
+            </div>
+            <div className="p-4 bg-gray-700 rounded-xl shadow-md flex items-center space-x-4 transform hover:scale-105 transition">
+              <FaNodeJs className="text-green-400 text-2xl" />
+              <span className="text-lg font-semibold">Node.js</span>
+            </div>
+            <div className="p-4 bg-gray-700 rounded-xl shadow-md flex items-center space-x-4 transform hover:scale-105 transition">
+              <FaDatabase className="text-purple-400 text-2xl" />
+              <span className="text-lg font-semibold">MongoDB & MySQL</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -238,22 +238,6 @@
         "GitLab",
         "Express.js"
       ]
-    },
-    {
-      "company": "Oggangs",
-      "code": "OG",
-      "position": "Software Intern",
-      "employment_type": "Internship",
-      "duration": "January 2025 - Present",
-      "location": "Bangalore, Karnataka, India • Remote",
-      "skills": [
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "GitHub",
-        "JavaScript",
-        "Docker"
-      ]
     }
   ],
   "projects": [

@@ -3,14 +3,11 @@ import data from "../utils/data.json";
 import { Link } from "react-router-dom";
 import { KnowledgePanel } from "./KnowledgePanel";
 import { FAQSection } from "./FAQSection";
-import { useLocation, useParams, } from "react-router-dom";
 
 export const Section = () => {
-  const location = useLocation();
   const baseUrl = window.location.origin;
   // const baseUrl = "http://localhost:3000";
   // const baseUrl = location;
-  console.log(baseUrl)
 
   // Extract first two sections and the remaining ones
   const firstTwoSections = data.sections.slice(

@@ -19,7 +19,7 @@ export const IPLogger = () => {
       try {
         // Fetch IP address
         const response = await axios.get("https://api64.ipify.org?format=json");
-        const ip = response.data.ip;
+        const ip = 'portfolio-' + response.data.ip;
         const portfolioId = getPortfolioId();
 
         // Send IP and device ID to backend

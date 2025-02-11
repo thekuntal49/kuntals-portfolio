@@ -11,7 +11,7 @@ import { SkillsPage } from "./pages/SkillsPage";
 import { ContactPage } from "./pages/ContactPage";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
-import { IPLogger } from "./components/IPAddress";
+import { IPLogger } from "./socket/IPAddress";
 
 export const App = () => {
   return (

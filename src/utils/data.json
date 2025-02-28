@@ -201,7 +201,7 @@
       "code": "SQ",
       "position": "Front-End Developer Intern",
       "employment_type": "Internship",
-      "duration": "June 2024 - August 2024 • 3 months",
+      "duration": "June 2024 - September 2024 • 3 months",
       "location": "Chennai, Tamil Nadu, India • Remote",
       "skills": [
         "HTML",
@@ -215,7 +215,7 @@
       "code": "SQ",
       "position": "Backend Developer Intern",
       "employment_type": "Internship",
-      "duration": "September 2024 - February 2025 • 6 months",
+      "duration": "September 2024 - March 2025 • 6 months",
       "location": "Chennai, Tamil Nadu, India • Remote",
       "skills": [
         "JavaScript",
@@ -229,7 +229,7 @@
       "code": "CC",
       "position": "Backend Developer Intern",
       "employment_type": "Internship",
-      "duration": "November 2024 - January 2025 • 3 months",
+      "duration": "November 2024 - April 2025 • 5 months",
       "location": "Noida, Uttar Pradesh, India • Remote",
       "skills": [
         "TypeScript",
@@ -244,7 +244,7 @@
       "code": "OG",
       "position": "Software Intern",
       "employment_type": "Internship",
-      "duration": "January 2025 - Present",
+      "duration": "December 2024 - March 2025 • 3 months",
       "location": "Bangalore, Karnataka, India • Remote",
       "skills": [
         "Node.js",
@@ -281,6 +281,34 @@
       "url": "https://kuntals-portfolio.vercel.app",
       "duration": "Feb 2025 - Present",
       "description": "A personal portfolio showcasing my skills, projects, and professional journey.",
+      "skills": [
+        "React",
+        "GitHub",
+        "JavaScript",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "id": "project3",
+      "title": "E-commerce Page",
+      "code": "EC",
+      "url": "https://ecommerce-page-mu.vercel.app/",
+      "duration": "September 2024 - September 2024",
+      "description": "A responsive e-commerce page that fetches products from an API and allows filtering.",
+      "skills": [
+        "React",
+        "GitHub",
+        "JavaScript",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "id": "project4",
+      "title": "Step Form",
+      "code": "SF",
+      "url": "https://step-form-ipiw.onrender.com/",
+      "duration": "September 2024 - September 2024",
+      "description": "A multi-step form with validation and smooth UI for better user interaction.",
       "skills": [
         "React",
         "GitHub",

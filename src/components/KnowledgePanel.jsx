@@ -50,9 +50,7 @@ export const KnowledgePanel = () => {
       {/* Details */}
       <div className="mt-4 space-y-3 text-sm">
         <p className="max-w-sm font-medium bg-gray-700 p-3 rounded-2xl">
-          I'm a Backend Developer skilled in Node.js (Express.js), MongoDB, PHP
-          (CodeIgniter), and MySQL. Over the past year, I’ve gained experience
-          through internships in backend and full-stack development.
+          I am Kuntal Kargupta, a passionate Backend Developer with experience in Node.js, Express.js, and MongoDB. I have built scalable backend solutions and RESTful APIs that enhance application performance.
         </p>
       </div>
 

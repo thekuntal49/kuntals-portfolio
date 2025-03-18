@@ -45,7 +45,6 @@
 
 import { useEffect } from "react";
 import axios from "axios";
-import { UserContext } from "../context/UserContext";
 import { v4 as uuidv4 } from "uuid";
 
 export const IPLogger = () => {

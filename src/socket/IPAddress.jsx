@@ -50,7 +50,7 @@ import { v4 as uuidv4 } from "uuid";
 export const IPLogger = () => {
   const backendUrl = "https://social-clubs-backend.onrender.com";
   const projectName = "Kuntals Portfolio";
-  const PROJECT_NAME = projectName.toLowerCase().split(" ").join(" ");
+  const PROJECT_NAME = projectName.toLowerCase().split(" ").join("");
 
   const getBrowserFingerprint = () => {
     return btoa(

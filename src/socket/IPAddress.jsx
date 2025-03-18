@@ -49,7 +49,8 @@ import { v4 as uuidv4 } from "uuid";
 
 export const IPLogger = () => {
   const backendUrl = "https://social-clubs-backend.onrender.com";
-  const PROJECT_NAME = "kuntalsportfolio";
+  const projectName = "Kuntals Portfolio";
+  const PROJECT_NAME = projectName.toLowerCase().split(" ").join();
 
   const getBrowserFingerprint = () => {
     return btoa(
@@ -78,7 +79,12 @@ export const IPLogger = () => {
 
         try {
           await axios.get(`${backendUrl}/api/v1/ip/track`, {
-            params: { latitude, longitude, deviceId },
+            params: {
+              latitude,
+              longitude,
+              deviceId,
+              projectName,
+            },
           });
         } catch (error) {
           console.error("Error sending location:", error);
@@ -94,7 +100,7 @@ export const IPLogger = () => {
           const ip = PROJECT_NAME + "-" + response.data.ip;
 
           await axios.get(`${backendUrl}/api/v1/ip/track`, {
-            params: { ip, deviceId },
+            params: { ip, deviceId, projectName },
           });
         } catch (error) {
           console.error("Error fetching/sending IP:", error);

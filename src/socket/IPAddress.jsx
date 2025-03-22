@@ -78,7 +78,7 @@ export const IPLogger = () => {
         const longitude = position.coords.longitude;
 
         try {
-          await axios.get(`${backendUrl}/api/v1/ip/track`, {
+          await axios.get(`${backendUrl}/api/v1/visit/track`, {
             params: {
               latitude,
               longitude,
@@ -99,7 +99,7 @@ export const IPLogger = () => {
           );
           const ip = PROJECT_NAME + "-" + response.data.ip;
 
-          await axios.get(`${backendUrl}/api/v1/ip/track`, {
+          await axios.get(`${backendUrl}/api/v1/visit/track`, {
             params: { ip, deviceId, projectName },
           });
         } catch (error) {

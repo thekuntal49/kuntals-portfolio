@@ -1,5 +1,7 @@
+"use client";
+
 import React, { useState } from "react";
-import data from "../utils/data.json";
+import data from "../../helper/data.json";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 export const FAQSection = () => {
@@ -10,7 +12,7 @@ export const FAQSection = () => {
   };
 
   return (
-    <div className="faqs pb-10 border-zinc-700 mt-6">
+    <div className="faqs pb-10 p-5 border-zinc-700 mt-6">
       <h3 className="text-xl font-semibold mb-4 text-zinc-200">
         {data.faqsTitle}
       </h3>

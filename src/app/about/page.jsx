@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import {
   FaReact,
@@ -7,7 +9,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
-export const AboutPage = () => {
+const AboutPage = () => {
   return (
     <div className="bg-gradient-to-b from-zinc-900 to-gray-800 text-white min-h-screen flex items-start">
       <div className="container mx-auto px-6 py-12">
@@ -51,3 +53,5 @@ export const AboutPage = () => {
     </div>
   );
 };
+
+export default AboutPage

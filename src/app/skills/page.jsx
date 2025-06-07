@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
-import data from "../utils/data.json";
+"use client";
 
-export const SkillsPage = () => {
-  const [searchParams] = useSearchParams();
+import React, { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import data from "../../helper/data.json";
+
+const SkillsPage = () => {
+  const searchParams = useSearchParams();
   const name = searchParams.get("name");
   const [highlightedSkill, setHighlightedSkill] = useState(null);
 
@@ -28,7 +30,11 @@ export const SkillsPage = () => {
             key={skill.id}
             id={skill.name}
             className={`flex bg-zinc-800 p-6 rounded-lg flex-col items-center shadow-lg transition-all duration-200 hover:bg-zinc-700 hover:shadow-xl 
-            ${highlightedSkill === skill.name ? "ring-4 shadow ring-blue-500" : ""}`}
+            ${
+              highlightedSkill === skill.name
+                ? "ring-4 shadow ring-blue-500"
+                : ""
+            }`}
           >
             <img
               src={`/assets/svg/${skill.name}.svg`}
@@ -43,3 +49,5 @@ export const SkillsPage = () => {
     </section>
   );
 };
+
+export default SkillsPage;

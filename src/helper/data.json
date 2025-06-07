@@ -168,9 +168,20 @@
       "url": "https://www.swamivivekanandauniversity.ac.in/",
       "area": "Computer Science and Engineering",
       "studyType": "B.Tech",
-      "startDate": "08/2021 -",
+      "startDate": "08/2021",
       "endDate": "08/2025",
-      "score": "CGPA: 8.00"
+      "score": "CGPA: 8.00",
+      "skills": [
+        "C",
+        "C++",
+        "Python",
+        "Data Structures",
+        "DBMS",
+        "Operating Systems",
+        "Computer Networks",
+        "Web Development",
+        "Object-Oriented Programming"
+      ]
     },
     {
       "id": "edu2",
@@ -179,9 +190,17 @@
       "url": "https://nandanpurhs.in/index2.php",
       "area": "Science",
       "studyType": "12th Grade - WBCHSE",
-      "startDate": "2019 -",
+      "startDate": "2019",
       "endDate": "2021",
-      "score": "Percentage: 74.6%"
+      "score": "Percentage: 74.6%",
+      "skills": [
+        "Physics",
+        "Mathematics",
+        "Chemistry",
+        "Basic Programming",
+        "Logical Thinking",
+        "Problem Solving"
+      ]
     },
     {
       "id": "edu3",
@@ -190,9 +209,17 @@
       "url": "https://nandanpurhs.in/index2.php",
       "area": "General",
       "studyType": "10th Grade - WBBSE",
-      "startDate": "",
+      "startDate": "2015",
       "endDate": "2019",
-      "score": "Percentage: 72.2%"
+      "score": "Percentage: 72.2%",
+      "skills": [
+        "Mathematics",
+        "Science",
+        "English",
+        "Basic Computer Skills",
+        "Teamwork",
+        "Discipline"
+      ]
     }
   ],
   "experiences": [
@@ -205,9 +232,9 @@
       "location": "Chennai, Tamil Nadu, India • Remote",
       "skills": [
         "HTML",
-        "CSS", 
+        "CSS",
         "Bootstrap",
-        "JavaScript" 
+        "JavaScript"
       ]
     },
     {
@@ -222,21 +249,6 @@
         "PHP",
         "CodeIgniter",
         "MySQL"
-      ]
-    },
-    {
-      "company": "College Counsel",
-      "code": "CC",
-      "position": "Backend Developer Intern",
-      "employment_type": "Internship",
-      "duration": "November 2024 - April 2025 • 5 months",
-      "location": "Noida, Uttar Pradesh, India • Remote",
-      "skills": [
-        "TypeScript",
-        "Node.js",
-        "MongoDB",
-        "GitLab",
-        "ExpressJS"
       ]
     },
     {

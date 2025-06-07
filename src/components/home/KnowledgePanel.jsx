@@ -1,7 +1,8 @@
+"use client";
+
 import React, { useState } from "react";
-import myPhoto from "/assets/images/Kuntal's_Photo.jpg";
 import { IoMdClose } from "react-icons/io";
-import data from "../utils/data.json";
+import data from "../../helper/data.json";
 
 export const KnowledgePanel = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ export const KnowledgePanel = () => {
               <IoMdClose />
             </button>
             <img
-              src={myPhoto}
+              src="/assets/images/Kuntal's_Photo.jpg"
               alt="Profile"
               className="max-w-full max-h-screen rounded-lg shadow-lg"
             />
@@ -34,7 +35,7 @@ export const KnowledgePanel = () => {
       <div className="flex space-x-6 items-center ">
         <div className="w-36 h-36 rounded-2xl overflow-hidden group">
           <img
-            src={myPhoto}
+            src="/assets/images/Kuntal's_Photo.jpg"
             alt="Profile"
             onClick={() => setIsOpen(true)} // Open fullscreen on click
             className="w-full cursor-pointer h-full object-cover transition-transform duration-200 group-hover:scale-110"
@@ -50,7 +51,9 @@ export const KnowledgePanel = () => {
       {/* Details */}
       <div className="mt-4 space-y-3 text-sm">
         <p className="max-w-sm font-medium bg-gray-700 p-3 rounded-2xl">
-          I am Kuntal Kargupta, a passionate Backend Developer with experience in Node.js, Express.js, and MongoDB. I have built scalable backend solutions and RESTful APIs that enhance application performance.
+          I am Kuntal Kargupta, a passionate Backend Developer with experience
+          in Node.js, Express.js, and MongoDB. I have built scalable backend
+          solutions and RESTful APIs that enhance application performance.
         </p>
       </div>
 

@@ -1,9 +1,11 @@
+"use client";
+
 import React, { useState } from "react";
 import axios from "axios";
-import { toast } from "react-hot-toast"; // ✅ Import toast
-import data from "../utils/data.json";
+import { toast } from "react-hot-toast";
+import data from "../../helper/data.json";
 
-export const ContactPage = () => {
+const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -142,3 +144,5 @@ export const ContactPage = () => {
     </section>
   );
 };
+
+export default ContactPage;

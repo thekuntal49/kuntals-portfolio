@@ -1,6 +1,7 @@
+"use client"
+
 import React from "react";
 import { FaSun, FaFileAlt, FaMicrophone } from "react-icons/fa";
-import myPhoto from "/assets/images/Kuntal's_Photo.jpg";
 import { RxCross2 } from "react-icons/rx";
 import { IoSearchOutline } from "react-icons/io5";
 import { TbSunHigh } from "react-icons/tb";
@@ -15,7 +16,7 @@ export const SearchBar = () => {
       {/* Left Side - Logo and Name */}
       <div className="flex flex-grow items-center max-w-5xl sm:mb-0">
         <img
-          src={myPhoto}
+          src="/assets/images/Kuntal's_Photo.jpg"
           width="54"
           alt="Kuntal's_Photo"
           className="rounded-full hidden sm:inline"
@@ -70,7 +71,7 @@ export const SearchBar = () => {
         </Tippy> */}
 
         <img
-          src={myPhoto}
+          src="/assets/images/Kuntal's_Photo.jpg"
           width="46"
           alt="Kuntal's_Photo"
           className="rounded-full sm:hidden inline"

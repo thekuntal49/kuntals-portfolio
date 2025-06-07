@@ -1,16 +1,4 @@
-import React from "react";
-import { Section } from "../components/home/Section";
-import { Footer } from "../components/home/Footer";
-import { SearchBar } from "@/components/global/SearchBar";
-import { Tabs } from "@/components/global/Tabs";
+import { homeMetadata } from "../config/seo/home";
 
-const HomePage = () => {
-  return (
-    <div className="min-h-screen">
-      <Section />
-      <Footer />
-    </div>
-  );
-};
-
-export default HomePage;
+export const metadata = homeMetadata;
+export { default } from "./home";

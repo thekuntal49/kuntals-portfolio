@@ -1,5 +1,4 @@
-"use client";
-
+import { baseMetadata } from "@/config/seo/base";
 import React from "react";
 import {
   FaReact,
@@ -8,6 +7,13 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
+
+export const metadata = {
+  ...baseMetadata,
+  title: "About – Kuntal | Backend Developer Portfolio",
+  description:
+    "Learn more about Kuntal, a backend developer experienced in Node.js, Express, and MongoDB.",
+};
 
 const AboutPage = () => {
   return (
@@ -54,4 +60,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage
+export default AboutPage;

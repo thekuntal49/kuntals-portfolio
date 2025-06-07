@@ -1,4 +1,3 @@
-// app/skills/page.tsx
 "use client";
 
 import React, { useEffect, useState, Suspense } from "react";
@@ -53,7 +52,9 @@ const SkillsPageContent = () => {
 
 const SkillsPage = () => {
   return (
-    <Suspense fallback={<div className="text-white text-center">Loading...</div>}>
+    <Suspense
+      fallback={<div className="text-white text-center">Loading...</div>}
+    >
       <SkillsPageContent />
     </Suspense>
   );

@@ -1,10 +1,11 @@
+// app/skills/page.tsx
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import data from "../../helper/data.json";
 
-const SkillsPage = () => {
+const SkillsPageContent = () => {
   const searchParams = useSearchParams();
   const name = searchParams.get("name");
   const [highlightedSkill, setHighlightedSkill] = useState(null);
@@ -16,7 +17,7 @@ const SkillsPage = () => {
         skillElement.scrollIntoView({ behavior: "smooth", block: "center" });
         setHighlightedSkill(name);
 
-        // Remove highlight after 3 seconds
+        // Remove highlight after 1 second
         setTimeout(() => setHighlightedSkill(null), 1000);
       }
     }
@@ -47,6 +48,14 @@ const SkillsPage = () => {
         ))}
       </div>
     </section>
+  );
+};
+
+const SkillsPage = () => {
+  return (
+    <Suspense fallback={<div className="text-white text-center">Loading...</div>}>
+      <SkillsPageContent />
+    </Suspense>
   );
 };
 

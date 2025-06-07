@@ -2,7 +2,7 @@ import { SearchBar } from "@/components/global/SearchBar";
 import "./globals.css";
 import { Toaster } from "@/components/global/Toaster";
 import { ThemeProvider } from "@/theme/ThemeContext";
-// import { layoutMetadata } from "../config/seo/layout";
+// import { layoutMetadata } from "../../config/seo/layout";
 import { Inter } from "next/font/google";
 import { Tabs } from "@/components/global/Tabs";
 

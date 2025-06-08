@@ -368,12 +368,12 @@
     },
     {
       "id": "project7",
-      "title": "Profile Finder",
+      "title": "Git Compare",
       "code": "PF",
-      "liveUrl": "https://profile-finder-react.vercel.app/",
-      "githubUrl": "https://github.com/thekuntal49/Profile-Finder",
+      "liveUrl": "https://git-compare-ten.vercel.app/",
+      "githubUrl": "https://github.com/thekuntal49/git-compare",
       "duration": "Jun 2024",
-      "description": "A web tool to search and display GitHub profiles with real-time API calls and error handling.",
+      "description": "Git Compare is a clean and minimal tool to compare two GitHub users side by side. It lets you quickly view and analyze key stats like followers, public repos, total stars, forks, and top languages — all in one page.",
       "skills": [
         "React",
         "GitHub API",

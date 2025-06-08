@@ -29,7 +29,7 @@ export const Section = () => {
       style={{ color: theme.primaryTextColor }}
       className="flex flex-col-reverse md:flex-row md:space-x-20"
     >
-      <div className="md:ps-28 p-3 mt-4">
+      <div className="md:ps-24 p-3 mt-4">
         {/* Render Sections Before Faqs*/}
         {beforeFaqsSections.map((section) => (
           <div

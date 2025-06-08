@@ -369,7 +369,7 @@
     {
       "id": "project7",
       "title": "GitHub User Compare",
-      "code": "PF",
+      "code": "GUC",
       "liveUrl": "https://git-compare-ten.vercel.app/",
       "githubUrl": "https://github.com/thekuntal49/github-user-compare",
       "duration": "Jun 2024",
@@ -384,7 +384,7 @@
     {
       "id": "project8",
       "title": "YouTube Channel Tracker",
-      "code": "YT",
+      "code": "YCT",
       "liveUrl": "https://youtube-channel-tracker.vercel.app",
       "githubUrl": "https://github.com/thekuntal49/youtube-channel-tracker",
       "duration": "May 2024",

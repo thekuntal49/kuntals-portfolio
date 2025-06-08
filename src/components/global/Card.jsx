@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { IoMdClose } from "react-icons/io";
+import { IoMdClose, IoMdGlobe } from "react-icons/io";
+import { BsGithub } from "react-icons/bs";
 
 export const Card = ({
   key,
@@ -12,6 +13,8 @@ export const Card = ({
   subHeading,
   desc = [],
   skills = [],
+  liveUrl = null,
+  githubUrl = null,
 }) => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
@@ -84,6 +87,35 @@ export const Card = ({
             ))}
           </div>
         </div>
+
+        {/* Live & GitHub Links */}
+        {(liveUrl || githubUrl) && (
+          <div className="mt-6 flex gap-4">
+            {liveUrl && (
+              <a
+                href={liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-emerald-600 hover:bg-emerald-700 text-white transition-shadow shadow-md"
+              >
+                <IoMdGlobe className="text-lg" />
+                Live Demo
+              </a>
+            )}
+
+            {githubUrl && (
+              <a
+                href={githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-gray-800 hover:bg-gray-700 text-white transition-shadow shadow-md"
+              >
+                <BsGithub className="text-lg" />
+                GitHub
+              </a>
+            )}
+          </div>
+        )}
       </div>
     </>
   );

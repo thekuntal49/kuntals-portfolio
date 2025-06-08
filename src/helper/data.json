@@ -276,7 +276,7 @@
       "id": "project1",
       "title": "CodeSena",
       "code": "CS",
-      "url": "https://codesena.site",
+      "liveUrl": "https://codesena.site",
       "duration": "Apr 2025",
       "description": "A coding platform featuring real-world frontend, backend, and full-stack projects with a custom admin panel.",
       "skills": [
@@ -292,7 +292,8 @@
       "id": "project2",
       "title": "Kuntal's Portfolio",
       "code": "KP",
-      "url": "https://kuntals-portfolio.vercel.app",
+      "liveUrl": "https://kuntals-portfolio.vercel.app",
+      "githubUrl": "https://github.com/thekuntal49/Kuntals-Portfolio",
       "duration": "Feb 2025",
       "description": "A personal portfolio showcasing my skills, projects, and professional journey.",
       "skills": [
@@ -306,7 +307,8 @@
       "id": "project3",
       "title": "Social Tunes",
       "code": "ST",
-      "url": "https://socialtunes.vercel.app",
+      "liveUrl": "https://socialtunes.vercel.app",
+      "githubUrl": "https://github.com/thekuntal49/SocialTunes",
       "duration": "Dec 2024",
       "description": "A music-themed social app for sharing playlists and syncing with friends in real-time.",
       "skills": [
@@ -321,7 +323,8 @@
       "id": "project4",
       "title": "E-commerce Page",
       "code": "EC",
-      "url": "https://ecommerce-page-mu.vercel.app/",
+      "liveUrl": "https://ecommerce-page-mu.vercel.app/",
+      "githubUrl": "https://github.com/thekuntal49/ecommerce-page",
       "duration": "Sep 2024",
       "description": "A responsive e-commerce page that fetches products from an API and allows filtering.",
       "skills": [
@@ -335,7 +338,8 @@
       "id": "project5",
       "title": "Step Form",
       "code": "SF",
-      "url": "https://step-form-ipiw.onrender.com/",
+      "liveUrl": "https://step-form-ipiw.onrender.com/",
+      "githubUrl": "https://github.com/thekuntal49/step-form",
       "duration": "Sep 2024",
       "description": "A multi-step form with validation and smooth UI for better user interaction.",
       "skills": [
@@ -349,7 +353,7 @@
       "id": "project6",
       "title": "Social Clubs",
       "code": "SC",
-      "url": "https://socialclubs.fun",
+      "liveUrl": "https://socialclubs.fun",
       "duration": "Aug 2024",
       "description": "A platform for connecting people, sharing interests, and organizing events.",
       "skills": [
@@ -366,7 +370,8 @@
       "id": "project7",
       "title": "Profile Finder",
       "code": "PF",
-      "url": "https://profile-finder-react.vercel.app",
+      "liveUrl": "https://profile-finder-react.vercel.app",
+      "githubUrl": "https://github.com/thekuntal49/Profile-Finder",
       "duration": "Jun 2024",
       "description": "A web tool to search and display GitHub profiles with real-time API calls and error handling.",
       "skills": [
@@ -380,7 +385,8 @@
       "id": "project8",
       "title": "YouTube Tracker (React)",
       "code": "YT",
-      "url": "https://youtube-tracker-react.vercel.app",
+      "liveUrl": "https://youtube-tracker-react.vercel.app",
+      "githubUrl": "https://github.com/thekuntal49/YouTube-Tracker-using-React",
       "duration": "May 2024",
       "description": "A tool to track and analyze YouTube video metrics and performance using public APIs.",
       "skills": [

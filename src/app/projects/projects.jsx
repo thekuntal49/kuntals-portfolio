@@ -17,6 +17,8 @@ const ProjectsPage = () => {
             subHeading={project.duration}
             desc={[project.description]}
             skills={project.skills}
+            liveUrl={project.liveUrl}
+            githubUrl={project.githubUrl}
           />
         ))}
       </div>

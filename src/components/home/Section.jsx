@@ -34,36 +34,35 @@ export const Section = () => {
         {beforeFaqsSections.map((section) => (
           <div
             key={section.id}
-            className="group transition-all duration-300 ease-in-out hover:shadow-md cursor-pointer hover:bg-white hover:dark:bg-[#1e1e1e] rounded-2xl p-5 mb-6 hover:dark:border-[#333]"
+            className="group transition-all w-full duration-300 ease-in-out cursor-pointer dark:bg-[#1e1e1e] md:dark:bg-transparent md:hover:dark:bg-[#1e1e1e] hover:shadow-md rounded-2xl p-5 mb-6"
           >
-            <div className="flex items-center space-x-4 mb-3">
-              <img
-                src={`https://ui-avatars.com/api/?name=${section.title}`}
-                alt=""
-                width="44"
-                className="rounded-full shadow-sm"
-              />
-              <div>
-                <h2 className="font-semibold text-lg">{section.title}</h2>
-                <p
-                  style={{ color: theme.secondaryTextColor }}
-                  className="text-xs"
-                >
-                  {`${baseUrl} > ${section.url}`}
-                </p>
+            <Link href={`${baseUrl}/${section.url}`}>
+              <div className="flex items-center space-x-4 mb-3">
+                <img
+                  src={`https://ui-avatars.com/api/?name=${section.title}`}
+                  alt=""
+                  width="44"
+                  className="rounded-full shadow-sm"
+                />
+                <div>
+                  <h2 className="font-semibold text-lg">{section.title}</h2>
+                  <p
+                    style={{ color: theme.secondaryTextColor }}
+                    className="text-xs"
+                  >
+                    {`${baseUrl} > ${section.url}`}
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <Link
-              href={`${baseUrl}/${section.url}`}
-              className="text-xl font-medium text-blue-500 transition-colors duration-200"
-            >
-              {section.content}
+              <p className="text-xl font-medium text-blue-500 transition-colors duration-200">
+                {section.content}
+              </p>
+
+              <p className="text-sm text-gray-600 dark:text-gray-300 mt-2 max-w-3xl line-clamp-2">
+                {section.description}
+              </p>
             </Link>
-
-            <p className="text-sm text-gray-600 dark:text-gray-300 mt-2 max-w-3xl line-clamp-2">
-              {section.description}
-            </p>
           </div>
         ))}
 
@@ -74,36 +73,35 @@ export const Section = () => {
         {afterFaqsSections.map((section) => (
           <div
             key={section.id}
-            className="group transition-all duration-300 ease-in-out hover:shadow-md cursor-pointer hover:bg-white hover:dark:bg-[#1e1e1e] rounded-2xl p-5 mb-6  hover:dark:border-[#333]"
+            className="group transition-all w-full duration-300 ease-in-out cursor-pointer dark:bg-[#1e1e1e] md:dark:bg-transparent md:hover:dark:bg-[#1e1e1e] hover:shadow-md rounded-2xl p-5 mb-6"
           >
-            <div className="flex items-center space-x-4 mb-3">
-              <img
-                src={`https://ui-avatars.com/api/?name=${section.title}`}
-                alt=""
-                width="44"
-                className="rounded-full shadow-sm"
-              />
-              <div>
-                <h2 className="font-semibold text-lg">{section.title}</h2>
-                <p
-                  style={{ color: theme.secondaryTextColor }}
-                  className="text-xs"
-                >
-                  {`${baseUrl} > ${section.url}`}
-                </p>
+            <Link href={`${baseUrl}/${section.url}`}>
+              <div className="flex items-center space-x-4 mb-3">
+                <img
+                  src={`https://ui-avatars.com/api/?name=${section.title}`}
+                  alt=""
+                  width="44"
+                  className="rounded-full shadow-sm"
+                />
+                <div>
+                  <h2 className="font-semibold text-lg">{section.title}</h2>
+                  <p
+                    style={{ color: theme.secondaryTextColor }}
+                    className="text-xs"
+                  >
+                    {`${baseUrl} > ${section.url}`}
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <Link
-              href={`${baseUrl}/${section.url}`}
-              className="text-xl font-medium text-blue-500 transition-colors duration-200"
-            >
-              {section.content}
+              <p className="text-xl font-medium text-blue-500 transition-colors duration-200">
+                {section.content}
+              </p>
+
+              <p className="text-sm text-gray-600 dark:text-gray-300 mt-2 max-w-3xl line-clamp-2">
+                {section.description}
+              </p>
             </Link>
-
-            <p className="text-sm text-gray-600 dark:text-gray-300 mt-2 max-w-3xl line-clamp-2">
-              {section.description}
-            </p>
           </div>
         ))}
       </div>

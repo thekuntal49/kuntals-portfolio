@@ -20,11 +20,11 @@ export const FAQSection = () => {
         {data.faqs.map((faq, index) => (
           <div
             key={index}
-            className="border-b border-zinc-700 cursor-pointer transition-all duration-200"
+            className="border-b border-zinc-700  transition-all duration-200"
           >
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full text-left flex justify-between items-center py-3"
+              className="w-full text-left flex  cursor-pointer justify-between items-center py-3"
             >
               <h4 className="text-lg font-semibold md:text-base">
                 {faq.question}

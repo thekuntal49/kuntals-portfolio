@@ -43,17 +43,15 @@ export const KnowledgePanel = () => {
         </div>
 
         <div>
-          <h2 className="text-3xl font-bold">Kuntal Kargupta</h2>
-          <p className="text-gray-300 mt-2 text-lg">Full Stack Developer</p>
+          <h2 className="text-3xl font-bold"> {data.fullname}</h2>
+          <p className="text-gray-300 mt-2 text-lg"> {data.role}</p>
         </div>
       </div>
 
       {/* Details */}
       <div className="mt-4 space-y-3 text-sm">
         <p className="max-w-sm font-medium bg-gray-700 p-3 rounded-2xl">
-          I am Kuntal Kargupta, a passionate Backend Developer with experience
-          in Node.js, Express.js, and MongoDB. I have built scalable backend
-          solutions and RESTful APIs that enhance application performance.
+          {data.intro}
         </p>
       </div>
 

@@ -383,12 +383,12 @@
     },
     {
       "id": "project8",
-      "title": "YouTube Tracker (React)",
+      "title": "YouTube Channel Tracker",
       "code": "YT",
-      "liveUrl": "https://you-tube-tracker-using-react.vercel.app/",
+      "liveUrl": "https://youtube-channel-tracker.vercel.app/",
       "githubUrl": "https://github.com/thekuntal49/YouTube-Tracker-using-React",
       "duration": "May 2024",
-      "description": "A tool to track and analyze YouTube video metrics and performance using public APIs.",
+      "description": "YouTube Channel Tracker is a web app where users enter a YouTube Channel ID to view public stats like subscriber count, views, top videos, join date, and estimated income — all in a clean, modern UI.",
       "skills": [
         "React",
         "YouTube API",

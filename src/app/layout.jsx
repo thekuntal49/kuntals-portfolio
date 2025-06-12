@@ -2,12 +2,12 @@ import { SearchBar } from "@/components/global/SearchBar";
 import "./globals.css";
 import { Toaster } from "@/components/global/Toaster";
 import { ThemeProvider } from "@/theme/ThemeContext";
-// import { layoutMetadata } from "../../config/seo/layout";
+import { layoutMetadata } from "../config/seo/layout.js";
 import { Inter } from "next/font/google";
 import { Tabs } from "@/components/global/Tabs";
 import { Visitor } from "@/components/global/Visitor";
 
-// export const metadata = layoutMetadata;
+export const metadata = layoutMetadata;
 
 export const viewport = "width=device-width, initial-scale=1.0";
 export const themeColor = "#ffffff";

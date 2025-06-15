@@ -321,36 +321,6 @@
     },
     {
       "id": "project4",
-      "title": "E-commerce Page",
-      "code": "EC",
-      "liveUrl": "https://ecommerce-page-mu.vercel.app/",
-      "githubUrl": "https://github.com/thekuntal49/ecommerce-page",
-      "duration": "Sep 2024",
-      "description": "A responsive e-commerce page that fetches products from an API and allows filtering.",
-      "skills": [
-        "React",
-        "GitHub",
-        "JavaScript",
-        "TailwindCSS"
-      ]
-    },
-    {
-      "id": "project5",
-      "title": "Step Form",
-      "code": "SF",
-      "liveUrl": "https://step-form-ipiw.onrender.com/",
-      "githubUrl": "https://github.com/thekuntal49/step-form",
-      "duration": "Sep 2024",
-      "description": "A multi-step form with validation and smooth UI for better user interaction.",
-      "skills": [
-        "React",
-        "GitHub",
-        "JavaScript",
-        "TailwindCSS"
-      ]
-    },
-    {
-      "id": "project6",
       "title": "Social Clubs",
       "code": "SC",
       "liveUrl": "https://socialclubs.fun",
@@ -367,7 +337,7 @@
       ]
     },
     {
-      "id": "project7",
+      "id": "project5",
       "title": "GitHub User Compare",
       "code": "GUC",
       "liveUrl": "https://git-compare-ten.vercel.app/",
@@ -382,7 +352,7 @@
       ]
     },
     {
-      "id": "project8",
+      "id": "project6",
       "title": "YouTube Channel Tracker",
       "code": "YCT",
       "liveUrl": "https://youtube-channel-tracker.vercel.app",
@@ -392,6 +362,36 @@
       "skills": [
         "React",
         "YouTube API",
+        "JavaScript",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "id": "project7",
+      "title": "Step Form",
+      "code": "SF",
+      "liveUrl": "https://step-form-ipiw.onrender.com/",
+      "githubUrl": "https://github.com/thekuntal49/step-form",
+      "duration": "Mar 2024",
+      "description": "A multi-step form with validation and smooth UI for better user interaction.",
+      "skills": [
+        "React",
+        "GitHub",
+        "JavaScript",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "id": "project8",
+      "title": "E-commerce Page",
+      "code": "EC",
+      "liveUrl": "https://ecommerce-page-mu.vercel.app/",
+      "githubUrl": "https://github.com/thekuntal49/ecommerce-page",
+      "duration": "Feb 2024",
+      "description": "A responsive e-commerce page that fetches products from an API and allows filtering.",
+      "skills": [
+        "React",
+        "GitHub",
         "JavaScript",
         "TailwindCSS"
       ]

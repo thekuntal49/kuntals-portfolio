@@ -370,7 +370,7 @@
       "id": "project7",
       "title": "Step Form",
       "code": "SF",
-      "liveUrl": "https://step-form-ipiw.onrender.com/",
+      "liveUrl": "https://step-form-tan.vercel.app/",
       "githubUrl": "https://github.com/thekuntal49/step-form",
       "duration": "Mar 2024",
       "description": "A multi-step form with validation and smooth UI for better user interaction.",

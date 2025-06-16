@@ -307,10 +307,10 @@
       "id": "project3",
       "title": "Social Tunes",
       "code": "ST",
-      "liveUrl": "https://social-tunes.vercel.app/",
+      "liveUrl": "https://social-tunes.vercel.app",
       "githubUrl": "https://github.com/thekuntal49/SocialTunes",
       "duration": "Dec 2024",
-      "description": "A music-themed social app for sharing playlists and syncing with friends in real-time.",
+      "description": "Social Tunes is a real-time collaborative music experience where users can connect and listen together in sync—just like vibing with a friend, remotely.",
       "skills": [
         "React",
         "Socket.io",
